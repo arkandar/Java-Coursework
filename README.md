@@ -30,7 +30,7 @@ Try and comment using javadoc style: https://vle.aston.ac.uk/bbcswebdav/pid-1477
    - Constructor should take gearType as a parameter and assign it to the class variable 
    - react should rotate the robot using r.act(LEFT) or r.act(RIGHT) which happens depending on what type the gear is 
  * Complete Pit class
-   - react should destroy the robot using r.destroy()
+   - ~react should destroy the robot using r.destroy()~
 
 
 
