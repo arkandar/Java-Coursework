@@ -25,10 +25,10 @@ Try and comment using javadoc style: https://vle.aston.ac.uk/bbcswebdav/pid-1477
  * Complete Flag class
    - (difficult) notifyGame() should tell the game that one of the flags has been touched and by what player, maybe using player/robot/game as a parameter
    - react should use the notifyGame() method and give the Robot in it as a parameter
- * Complete Gear class
-   - add a gearType variable which is a String
-   - Constructor should take gearType as a parameter and assign it to the class variable 
-   - react should rotate the robot using r.act(LEFT) or r.act(RIGHT) which happens depending on what type the gear is 
+ * ~Complete Gear class~
+   - ~add a gearType variable which is a String~
+   - ~Constructor should take gearType as a parameter and assign it to the class variable ~
+   - ~react should rotate the robot using r.act(LEFT) or r.act(RIGHT) which happens depending on what type the gear is ~
  * Complete Pit class
    - ~react should destroy the robot using r.destroy()~
 
