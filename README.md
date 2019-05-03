@@ -14,7 +14,7 @@ Try and comment using javadoc style: https://vle.aston.ac.uk/bbcswebdav/pid-1477
   - ~add a Direction variable~
   - ~act(Action a) should use the Action enum to perform an action on the robot - only do this if Action enum is finished
   it should check what type of action~
-  - destroy() should put the robot back at the starting location, which could be a variable
+  - ~destroy() should put the robot back at the starting location, which could be a variable~
   - (difficult)push should have a parameter of type Direction and it should move the robot using the Action enum and the Direction
   - ~Add a method called setLocation which takes x (int) and y (int) as parameters which makes a new Location using the parameters~
 * Complete Player class
