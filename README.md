@@ -12,8 +12,8 @@ Try and comment using javadoc style: https://vle.aston.ac.uk/bbcswebdav/pid-1477
 (outline already done, could be changed)~
 * Complete the Robot class
   - ~add a Direction variable~
-  - act(Action a) should use the Action enum to perform an action on the robot - only do this if Action enum is finished
-  it should check what type of action
+  - ~act(Action a) should use the Action enum to perform an action on the robot - only do this if Action enum is finished
+  it should check what type of action~
   - destroy() should put the robot back at the starting location, which could be a variable
   - (difficult)push should have a parameter of type Direction and it should move the robot using the Action enum and the Direction
   - Add a method called setLocation which takes x (int) and y (int) as parameters which makes a new Location using the parameters
@@ -24,12 +24,12 @@ Try and comment using javadoc style: https://vle.aston.ac.uk/bbcswebdav/pid-1477
   - (difficult) make a method to check if there two actions in a row in the array
  * Complete Flag class
    - (difficult) notifyGame() should tell the game that one of the flags has been touched and by what player, maybe using player/robot/game as a parameter
-   - react should use the notifyGame() method and give the Robot in it as a parameter
+   - ~react should use the notifyGame() method and give the Robot in it as a parameter~
  * ~Complete Gear class~
    - ~add a gearType variable which is a String~
    - ~Constructor should take gearType as a parameter and assign it to the class variable~
    - ~react should rotate the robot using r.act(LEFT) or r.act(RIGHT) which happens depending on what type the gear is~
- * Complete Pit class
+ * ~Complete Pit class~
    - ~react should destroy the robot using r.destroy()~
 
 
